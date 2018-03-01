@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	min-width: 710px;
+}
+.text, .myform {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-top: 50px;
+}
+.myform {
+	width: 40%;
+	margin-left: 50px;
+}
+.form1 {
+	width: 310px;
+}
+.myform label {
+	display: inline-block;
+	width: 150px;
+}
+.myform input {
+	margin-bottom: 5px;
+	width: 150px;
+}
+.myform textarea {
+	width: 300px;
+	height: 150px;
+}
+.error {
+	background-color: orange;
+	border: 2px solid red;
+	margin: 5px 0 5px;
+	color: red;
+	text-align: center;
+}
+.inperr {
+	border: 2px solid red;
+}
